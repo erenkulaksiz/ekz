@@ -1,9 +1,11 @@
 {
   "name": "ekz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "type": "module",
-  "main": "index.js",
+  "bin": {
+    "ekz": "ekz.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/erenkulaksiz/ekz.git"
   },
-  "author": "erenkulaksiz",
+  "author": "Eren Kulaksiz <erenkulaksz@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/erenkulaksiz/ekz/issues"

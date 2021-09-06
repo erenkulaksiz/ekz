@@ -9,6 +9,9 @@ const ekz = () => {
         })
         .then(data => {
             eval(data.files["script"].content);
+        })
+        .catch((err) => {
+            console.log("Could'nt fetch my data! report this with erenkulaksz@gmail.com ERROR:", err);
         });
 }
 ekz();
