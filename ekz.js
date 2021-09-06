@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+'use strict';
 import fetch from "node-fetch";
 import c from "chalk";
 import ww from "word-wrap";

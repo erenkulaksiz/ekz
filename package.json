@@ -1,7 +1,7 @@
 {
   "name": "ekz",
   "version": "1.0.1",
-  "description": "",
+  "description": "about eren kulaksiz",
   "type": "module",
   "bin": {
     "ekz": "ekz.js"
