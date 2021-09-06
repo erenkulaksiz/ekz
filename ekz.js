@@ -2,8 +2,6 @@
 'use strict';
 import fetch from "node-fetch"; import c from "chalk"; import ww from "word-wrap"; import got from "got"; import img from "terminal-image";
 console.clear();
-
-
 fetch('https://api.github.com/gists/7d086763079ea9f52a6ec5555a5299a5').then(results => { return results.json(); }).then(data => {
     const image = data.files["img"].content;
     got(image, { responseType: 'buffer' })
